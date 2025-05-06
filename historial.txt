@@ -1,0 +1,202 @@
+    1  ls-l
+    2  ls -l
+    3  ls -l/home
+    4  ls -l /home
+    5  cd: /home/ubuntu
+    6  ls -l
+    7  pwd
+    8  mkdir clase5
+    9  ls -l
+   10  cd clase5
+   11  ls-l
+   12  ls -l
+   13  echo linea1
+   14  echo linea1 > practica1.txt
+   15  echo linea1 > practica2.txt
+   16  ls -l
+   17  chmod 600 practica1.txt
+   18  ls -l
+   19  chmod 222 practica2.txt
+   20  ls -l
+   21  chmod 444 practica2.txt
+   22  ls -l
+   23  echo linea2 >> practica2.txt
+   24  sudo echo linea2 >> practica2.txt
+   25  chmod 644 practica2.txt
+   26  ls -l
+   27  chmod 600 practica2.txt
+   28  ls -l
+   29  echo linea2 >> practica2.txt
+   30  cat practica2.txt
+   31  cd..
+   32  cd ..
+   33  ls -l
+   34  chmod 777 clase5
+   35  ls -l
+   36  cd clase5
+   37  ls -l
+   38  cd ..
+   39  chmod -R 777 clase5
+   40  cd clase5
+   41  ls -l
+   42  chmod 666 *.txt
+   43  ls -l
+   44  exit
+   45  ls -l
+   46  echo "ls -l" > script1
+   47  cat script1
+   48  bash script1
+   49  echo "cat README" >> script1
+   50  cat script1
+   51  echo "cd repogit" >> script1
+   52  cat script1+
+   53  cat script1
+   54  bash script1
+   55  pwd
+   56  cat << FIN > script2
+   57  pwd
+   58  mkdir dir_script
+   59  ls -l
+   60  FIN
+   61  cat script2
+   62  bash script2
+   63  vim script3.sh
+   64  ls -l
+   65  cat script3.sh
+   66  ./script3.sh
+   67  chmod 764 script3.sh
+   68  ls -l
+   69  ./script3.sh
+   70  vim script3.sh
+   71  cat script3.sh
+   72  ls -l
+   73  ./script3.sh
+   74  ls -l
+   75  clear
+   76  pwd
+   77  ssh-keygen -t ed25519
+   78  ls -l
+   79  ls -la
+   80  ls -l
+   81  ls -l /.ssh
+   82  ls -l .ssh/
+   83  cat $HOME/.ssh/*.pub
+   84  wd
+   85  pwd
+   86  ls -l
+   87  pwd
+   88  cd repogit
+   89  ls -l
+   90  git clone git@github.com:Priscilaa03/TP_AySO_Krauchik_Priscila.git
+   91  ls -l
+   92  cd TP_AySO_Krauchik_Priscila
+   93  ls -l
+   94  pwd
+   95  cat /etc/os-release
+   96  man grep
+   97  grep HOME_URL /etc/os-release
+   98  grep home_url /etc/os-release
+   99  grep -i Home_url /etc/os-release
+  100  grep -i Home_url /etc/os-release > datos_url.txt
+  101  ls -l
+  102  cat datos_url.txt
+  103  ls -l
+  104  git add .
+  105  git status
+  106  git commit -m "ADD: agregado 1er ejercicios sobre datos:url.txt"
+  107  git config --global user.email "priscikrauchikgmail.com"
+  108  git config --global user.name "Priscilaa03"
+  109  git commit -m "ADD: agregado 1er ejercicios sobre datos:url.txt"
+  110  git push
+  111  exit
+  112  ssh.service
+  113  sudo systemct1 status ssh
+  114  status sshd
+  115  status
+  116  status ssh
+  117  sudo systemct1 status sshd
+  118  pwd
+  119  clear
+  120  ssh-keygen -t ed25519
+  121  ls -l
+  122  ls -la
+  123  cat $HOME/.ssh/*.pub
+  124  ls -l .ssh/
+  125  cat $HOME/.ssh/*.pub
+  126  pwd
+  127  git clone 
+  128  git clone git@github.com:Priscilaa03/Practica_3.git
+  129  ls -l
+  130  cd Practica_3
+  131  ls
+  132  history > historial.txt
+  133  ls
+  134  ls -l
+  135  git status
+  136  git add
+  137  git add .
+  138  git status
+  139  git commit
+  140  ls -l
+  141  cd Practica_3
+  142  ls -l
+  143  git status
+  144  git push
+  145  git status
+  146  git add
+  147  git add .
+  148  git push+
+  149  git push
+  150  pwd
+  151  ls -l
+  152  destroy historial.txt
+  153  ls -l
+  154  history > historial1.txt
+  155  ls
+  156  git add .
+  157  git psuh
+  158  git push
+  159  git status
+  160  git push
+  161  git add .
+  162  git status
+  163  git push
+  164  git push historial.txt
+  165  ls -l
+  166  chmod 777 historial.txt
+  167  chmod 777 historial1.txt
+  168  ls -l
+  169  git add
+  170  git add .
+  171  git push
+  172  git clone git@github.com:Priscilaa03/Practica_3.git
+  173  ls -l
+  174  cd Practica_3
+  175  history > historial.txt
+  176  ls -l
+  177  git add
+  178  git add .
+  179  git push
+  180  exit
+  181  pwd
+  182  ls -l
+  183  cd Practica_3
+  184  ls -l
+  185  git push
+  186  git push historail.txt
+  187  git push
+  188  push
+  189  exit
+  190  ls -la
+  191  ls -l .ssh/
+  192  cat $HOME/.ssh/*.pub
+  193  pwd
+  194  ls -l
+  195  git clone 
+  196  git clone git@github.com:Priscilaa03/Practica3.git
+  197  pwd
+  198  ls -l
+  199  cd Practica3
+  200  pwd
+  201  ls -l
+  202  history > historial.txt
